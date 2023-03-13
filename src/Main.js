@@ -11,34 +11,14 @@ import UbuntuSvg from "./assets/img/ubuntu.svg";
 import NaverCloudPng from "./assets/img/naverCloud.png";
 import sosoPng from "./assets/img/soso.png";
 import Sidebar from "./Sidebar";
+import Header from "./Header";
 
 let Main = () => {
     return (
         <div id="wrapper">
             <div id="main">
                 <div className="inner">
-                    <header id="header">
-                        <a href="index.html" className="logo"
-                        ><h2 style={{
-                            margin: "0",
-                            display: "inline-block",
-                        }} className="none-font">넨이의 코딩</h2>
-                            <span>by Developer</span></a
-                        >
-                        <ul className="icons">
-                            <li>
-                                <a href="#" className="icon brands fa-facebook-f"
-                                ><span className="label">Facebook</span></a
-                                >
-                            </li>
-                            <li>
-                                <a href="#" className="icon brands fa-instagram"
-                                ><span className="label">Instagram</span></a
-                                >
-                            </li>
-                        </ul>
-                    </header>
-
+                    <Header/>
                     <section id="banner" style={{
                         padding: "18% 0px"
                     }}>

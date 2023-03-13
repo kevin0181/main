@@ -1,5 +1,5 @@
-let Sidebar = ()=>{
-    return(
+let Sidebar = () => {
+    return (
         <div id="sidebar">
             <div className="inner">
                 <section id="search" className="alt">
@@ -13,7 +13,7 @@ let Sidebar = ()=>{
                     </header>
                     <ul className="none-font">
                         <li><a href="/main">Homepage</a></li>
-                        <li><a href="generic.html">Generic</a></li>
+                        <li><a href="/main/generic">Generic</a></li>
                         <li><a href="/main/element">Elements</a></li>
                         <li>
                             <span className="opener">Submenu</span>
