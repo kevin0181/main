@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.js": "/main/static/js/main.c43e9d47.js",
+    "main.js": "/main/static/js/main.c0178e38.js",
     "static/media/dog.jpg": "/main/static/media/dog.2f38f731771e57ae0d5e.jpg",
+    "static/media/github.png": "/main/static/media/github.ae6342f55dcbb8b712e6.png",
+    "static/media/넨이의 코딩.png": "/main/static/media/넨이의 코딩.164e4098a780f20aba65.png",
     "static/media/soso.png": "/main/static/media/soso.febb40215d3a41a9e280.png",
+    "static/media/notion.png": "/main/static/media/notion.27bd758ac0ae9220e283.png",
     "static/media/mysql.svg": "/main/static/media/mysql.0ededdc4142f3fe73446506c2ef40c4e.svg",
     "static/media/jquery.svg": "/main/static/media/jquery.6d27cc1a0bd6b5797a411dfede5d10f7.svg",
     "static/media/node.svg": "/main/static/media/node.b7d2308b16bd82b67987d0d1682f8e6b.svg",
@@ -11,9 +14,9 @@
     "static/media/github.svg": "/main/static/media/github.adb64c2839b5d9102c23003bdae50503.svg",
     "static/media/css3.svg": "/main/static/media/css3.36ab8bf2623ca5404345429d610c099d.svg",
     "static/media/html5.svg": "/main/static/media/html5.4bb6d9fc155ecad188fcfa5c2414c0d0.svg",
-    "main.c43e9d47.js.map": "/main/static/js/main.c43e9d47.js.map"
+    "main.c0178e38.js.map": "/main/static/js/main.c0178e38.js.map"
   },
   "entrypoints": [
-    "static/js/main.c43e9d47.js"
+    "static/js/main.c0178e38.js"
   ]
 }
