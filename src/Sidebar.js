@@ -1,3 +1,7 @@
+import notionImg from "./assets/img/notion.png";
+import nenBlogImg from "./assets/img/넨이의 코딩.png";
+import gitHubImg from "./assets/img/github.png";
+
 let Sidebar = () => {
     return (
         <div id="sidebar">
@@ -31,62 +35,66 @@ let Sidebar = () => {
 
                 <section>
                     <header className="major">
-                        <h2>Ante interdum</h2>
+                        <h2>Other Site</h2>
                     </header>
                     <div className="mini-posts">
                         <article>
-                            <a href="#" className="image"><img src="images/pic07.jpg" alt=""/></a>
+                            <a href="https://github.com/kevin0181" target={"_blank"} className="image"><img
+                                src={gitHubImg}
+                                alt="nen github img"/></a>
+                            <h4>GitHub</h4>
                             <p>
-                                Aenean ornare velit lacus, ac varius enim lorem ullamcorper
-                                dolore aliquam.
+                                Many Project
                             </p>
                         </article>
                         <article>
-                            <a href="#" className="image"><img src="images/pic08.jpg" alt=""/></a>
+                            <a href="https://www.notion.so/neneee/My-Life-a89c7f78cc7c4b1cb1a0874d1283a15d"
+                               target={"_blank"}
+                               className="image"><img src={notionImg} alt="nen notion img"/></a>
+                            <h4>Notion</h4>
                             <p>
-                                Aenean ornare velit lacus, ac varius enim lorem ullamcorper
-                                dolore aliquam.
+                                My life in Notion
                             </p>
                         </article>
                         <article>
-                            <a href="#" className="image"><img src="images/pic09.jpg" alt=""/></a>
+                            <a href="https://code-nen.tistory.com/"
+                               target={"_blank"} className="image"><img src={nenBlogImg}
+                                                                        alt="nen blog Img"/></a>
+                            <h4>Nen Blog</h4>
                             <p>
-                                Aenean ornare velit lacus, ac varius enim lorem ullamcorper
-                                dolore aliquam.
+                                Dev diary and error collection
                             </p>
                         </article>
                     </div>
-                    <ul className="actions">
-                        <li><a href="#" className="button">More</a></li>
-                    </ul>
+                    {/*<ul className="actions">*/}
+                    {/*    <li><a href="#" className="button">More</a></li>*/}
+                    {/*</ul>*/}
                 </section>
+
                 <section>
                     <header className="major">
                         <h2>Get in touch</h2>
                     </header>
-                    <p>
-                        Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit
-                        lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam
-                        facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                    </p>
+                    {/*<p>*/}
+                    {/*</p>*/}
                     <ul className="contact">
                         <li className="icon solid fa-envelope">
-                            <a href="#">information@untitled.tld</a>
+                            <a href="#">kevin018111@gmail.com</a>
                         </li>
-                        <li className="icon solid fa-phone">(000) 000-0000</li>
-                        <li className="icon solid fa-home">
-                            1234 Somewhere Road #8254<br/>
-                            Nashville, TN 00000-0000
-                        </li>
+                        <li className="icon solid fa-phone">010-8650-9052</li>
+                        {/*<li className="icon solid fa-home">*/}
+                        {/*    1234 Somewhere Road #8254<br/>*/}
+                        {/*    Nashville, TN 00000-0000*/}
+                        {/*</li>*/}
                     </ul>
                 </section>
 
                 <footer id="footer">
-                    <p className="copyright">
-                        &copy; Untitled. All rights reserved. Demo Images:
-                        <a href="https://unsplash.com">Unsplash</a>. Design:
-                        <a href="https://html5up.net">HTML5 UP</a>.
-                    </p>
+                    {/*<p className="copyright">*/}
+                    {/*    &copy; Untitled. All rights reserved. Demo Images:*/}
+                    {/*    <a href="https://unsplash.com">Unsplash</a>. Design:*/}
+                    {/*    <a href="https://html5up.net">HTML5 UP</a>.*/}
+                    {/*</p>*/}
                 </footer>
             </div>
         </div>
