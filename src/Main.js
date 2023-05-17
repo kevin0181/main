@@ -12,6 +12,8 @@ import NaverCloudPng from "./assets/img/naverCloud.png";
 import sosoPng from "./assets/img/soso.png";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
+import KioskImg from "./assets/img/키오스크.jpeg";
+import KioskMainImg from "./assets/img/kioskMain.png";
 
 let Main = () => {
     return (
@@ -201,9 +203,31 @@ let Main = () => {
                                 <ul className="actions">
                                     <li>
                                         <a
-                                            href="https://www.notion.so/neneee/b74d009791d44ab78c254d9617d8d0cf"
+                                            href={"#!"}
                                             className="button"
-                                            target="_blank"
+                                        >More</a
+                                        >
+                                    </li>
+                                </ul>
+                            </article>
+                            <article>
+                                <a href="#!" className="image"
+                                ><img src={KioskMainImg} alt="kiosk main img"
+                                /></a>
+                                <h3 className="none-font">
+                                    <a href="https://soso-kitchen.com" target="_blank"
+                                    >KIOSK</a
+                                    >
+                                </h3>
+                                <p>
+                                    Spring Boot 및 React를 사용한 키오스크 입니다. Electron.js를 사용하여 윈도우 환경에서 키오스크가 작동하며 소소한 부엌 사이트와
+                                    연동하여 실시간으로 주문이 들어오며 환불 및 메뉴 관리가 가능합니다.
+                                </p>
+                                <ul className="actions">
+                                    <li>
+                                        <a
+                                            href={"#!"}
+                                            className="button"
                                         >More</a
                                         >
                                     </li>
