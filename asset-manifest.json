@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/main/static/js/main.63d86517.js",
+    "main.js": "/main/static/js/main.df05b028.js",
     "static/media/dog.jpg": "/main/static/media/dog.2f38f731771e57ae0d5e.jpg",
     "static/media/키오스크.jpeg": "/main/static/media/키오스크.c1a23b23499af5905f8e.jpeg",
     "static/media/github.png": "/main/static/media/github.ae6342f55dcbb8b712e6.png",
@@ -16,9 +16,9 @@
     "static/media/github.svg": "/main/static/media/github.adb64c2839b5d9102c23003bdae50503.svg",
     "static/media/css3.svg": "/main/static/media/css3.36ab8bf2623ca5404345429d610c099d.svg",
     "static/media/html5.svg": "/main/static/media/html5.4bb6d9fc155ecad188fcfa5c2414c0d0.svg",
-    "main.63d86517.js.map": "/main/static/js/main.63d86517.js.map"
+    "main.df05b028.js.map": "/main/static/js/main.df05b028.js.map"
   },
   "entrypoints": [
-    "static/js/main.63d86517.js"
+    "static/js/main.df05b028.js"
   ]
 }
